@@ -50,6 +50,7 @@ module "eks" {
   tags = {
     Environment = "dev"
     Terraform   = "true"
+    map_migrated = "d-server-01w1643zlizp1x"
   }
 }
 
